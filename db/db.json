@@ -1,0 +1,409 @@
+{
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 4,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 4,
+        "tipo": "Pepino"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "nome": "Kurono",
+      "carne": "Picanha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cheddar"
+      ],
+      "status": "Finalizado",
+      "id": 1
+    },
+    {
+      "nome": "Guts",
+      "carne": "Maminha",
+      "pao": "Integral",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cheddar",
+        "Tomate",
+        "Pepino",
+        "Cebola roxa"
+      ],
+      "status": "Finalizado",
+      "id": 3
+    },
+    {
+      "nome": "Kamina",
+      "carne": "Picanha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Finalizado",
+      "id": 4
+    },
+    {
+      "nome": "Tadano Hitohito",
+      "carne": "Picanha",
+      "pao": "Integral",
+      "opcionais": [
+        "Cebola roxa",
+        "Tomate"
+      ],
+      "status": "Em produção",
+      "id": 7
+    },
+    {
+      "nome": "sgasgsag",
+      "carne": "Maminha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Solicitado",
+      "id": 8
+    }
+  ],
+  "estoque": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco",
+        "quantidade": 0
+      },
+      {
+        "id": 2,
+        "tipo": "3 Queijos",
+        "quantidade": 0
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano",
+        "quantidade": 0
+      },
+      {
+        "id": 4,
+        "tipo": "Integral",
+        "quantidade": 0
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha",
+        "quantidade": 0
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra",
+        "quantidade": 0
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha",
+        "quantidade": 0
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger",
+        "quantidade": 0
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon",
+        "quantidade": 0
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar",
+        "quantidade": 0
+      },
+      {
+        "id": 3,
+        "tipo": "Salame",
+        "quantidade": 0
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate",
+        "quantidade": 0
+      },
+      {
+        "id": 5,
+        "tipo": "Cebola roxa",
+        "quantidade": 0
+      },
+      {
+        "id": 6,
+        "tipo": "Pepino",
+        "quantidade": 0
+      }
+    ]
+  },
+  "remessas": [
+    {
+      "nome": "Saulo",
+      "carne": "Picanha",
+      "quantidade": 0,
+      "pao": "Italiano Branco",
+      "quantidade2": 0,
+      "opcional": "Bacon",
+      "quantidade3": 0,
+      "status": "Finalizado",
+      "id": 1
+    },
+    {
+      "nome": "Xablau",
+      "carne": "Maminha",
+      "quantidade": 21,
+      "pao": "Italiano Branco",
+      "quantidade2": 12,
+      "opcional": "Cheddar",
+      "quantidade3": 7,
+      "status": "Solicitado",
+      "id": 2
+    },
+    {
+      "nome": "Gilberto Barros",
+      "carne": "Maminha",
+      "quantidade": 7,
+      "pao": "Integral",
+      "quantidade2": 3,
+      "opcional": "Bacon",
+      "quantidade3": 69,
+      "status": "Solicitado",
+      "id": 3
+    },
+    {
+      "nome": "Kurono",
+      "carne": "Picanha",
+      "quantidade": 3,
+      "pao": "Italiano Branco",
+      "quantidade2": 3,
+      "opcional": "Tomate",
+      "quantidade3": 3,
+      "status": "Solicitado",
+      "id": 4
+    },
+    {
+      "nome": "Luva de predrero",
+      "carne": "Alcatra",
+      "quantidade": 27,
+      "pao": "3 Queijos",
+      "quantidade2": 27,
+      "opcional": "Bacon",
+      "quantidade3": 27,
+      "status": "Solicitado",
+      "id": 5
+    },
+    {
+      "nome": "Neymar",
+      "carne": "Picanha",
+      "quantidade": 2,
+      "pao": "3 Queijos",
+      "quantidade2": 2,
+      "opcional": "Cheddar",
+      "quantidade3": 2,
+      "status": "Solicitado",
+      "id": 6
+    },
+    {
+      "nome": "Hello Kitty",
+      "carne": "Picanha",
+      "quantidade": 4,
+      "pao": "3 Queijos",
+      "quantidade2": 4,
+      "opcional": "Salame",
+      "quantidade3": 4,
+      "status": "Solicitado",
+      "id": 7
+    },
+    {
+      "nome": "Abcd",
+      "carne": "Alcatra",
+      "quantidade": 3,
+      "pao": "3 Queijos",
+      "quantidade2": 3,
+      "opcional": "Bacon",
+      "quantidade3": 3,
+      "status": "Solicitado",
+      "id": 8
+    },
+    {
+      "nome": "Xablau",
+      "carne": "Maminha",
+      "quantidade": 3,
+      "pao": "Italiano Branco",
+      "quantidade2": 3,
+      "opcional": "Bacon",
+      "quantidade3": 3,
+      "status": "Solicitado",
+      "id": 9
+    },
+    {
+      "nome": "Xablau",
+      "carne": "Maminha",
+      "quantidade": 3,
+      "pao": "Italiano Branco",
+      "quantidade2": 3,
+      "opcional": "Bacon",
+      "quantidade3": 3,
+      "status": "Solicitado",
+      "id": 10
+    },
+    {
+      "nome": "Kurono",
+      "carne": "Alcatra",
+      "quantidade": 3,
+      "pao": "Parmesão e Orégano",
+      "quantidade2": 3,
+      "opcional": "Salame",
+      "quantidade3": 3,
+      "status": "Solicitado",
+      "id": 11
+    },
+    {
+      "nome": "Kurono 2",
+      "carne": "Picanha",
+      "quantidade": 1,
+      "pao": "Parmesão e Orégano",
+      "quantidade2": 1,
+      "opcional": "Tomate",
+      "quantidade3": 1,
+      "status": "Solicitado",
+      "id": 12
+    },
+    {
+      "nome": "Kurono 2",
+      "carne": "Picanha",
+      "quantidade": 2,
+      "pao": "3 Queijos",
+      "quantidade2": 2,
+      "opcional": "Cheddar",
+      "quantidade3": 2,
+      "status": "Solicitado",
+      "id": 13
+    },
+    {
+      "nome": "Kurono",
+      "carne": "Picanha",
+      "quantidade": 1,
+      "pao": "Parmesão e Orégano",
+      "quantidade2": 1,
+      "opcional": "Salame",
+      "quantidade3": 1,
+      "status": "Solicitado",
+      "id": 14
+    },
+    {
+      "nome": "Xablau",
+      "carne": "Picanha",
+      "quantidade": 2,
+      "pao": "3 Queijos",
+      "quantidade2": 2,
+      "opcional": "Cheddar",
+      "quantidade3": 2,
+      "status": "Solicitado",
+      "id": 15
+    },
+    {
+      "nome": "Kurono 2",
+      "carne": "Alcatra",
+      "quantidade": 1,
+      "pao": "Parmesão e Orégano",
+      "quantidade2": 1,
+      "opcional": "Salame",
+      "quantidade3": 1,
+      "status": "Solicitado",
+      "id": 16
+    },
+    {
+      "nome": "Teste ER",
+      "carne": "Picanha",
+      "quantidade": 23,
+      "pao": "Parmesão e Orégano",
+      "quantidade2": 56,
+      "opcional": "Cebola roxa",
+      "quantidade3": 123,
+      "status": "Solicitado",
+      "id": 17
+    }
+  ]
+}
